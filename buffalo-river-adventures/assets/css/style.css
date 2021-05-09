@@ -1,0 +1,307 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container{
+  font-family: 'Solway', serif;
+  width:80vw;
+  margin:20px auto;
+  max-width:992px;
+  color:#000000;
+  text-align:center;
+  }
+
+header.primary{
+    background-color: #955931;
+    padding: 10px 40px 20px 40px;
+    text-shadow: 1px 1px #c0c0c0; 
+}
+
+header.primary img{
+    float:left;
+    margin-left:30px;
+}
+
+header.primary, h1, h2, h3{
+  font-family: 'Solway', serif;
+  text-align:center;
+  margin: 20px 0;
+  color:#345923;
+  padding:30px 0 20px 0;
+}
+
+header.primary nav1{
+  width:80vw;
+  margin: 10px auto;
+}
+
+header.primary nav a{
+    display: block;
+}
+
+header.primary nav ul{
+    padding:50px;
+    margin:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    font-weight:bold;
+}
+
+header.primary nav ul a:link, header.primary nav ul a:visited{
+    color:#8DA658;
+    text-decoration:none;
+    background-color: #593B02;
+    padding: 10px 10px;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+header.primary nav ul a:active, header.primary nav ul a:hover{
+    color:#345923;
+    text-decoration:none;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+}
+
+.nav1{
+ position:absolute;
+ top:30px;
+ right:0;
+ width:1200px;
+}
+
+.nav2{
+ display:flex;
+ flex-direction:row;
+ justify-content:space-around;
+ margin-top:65px;
+ width:900px;
+}
+
+.nav2 ul li{
+    margin-left:60px;
+    margin-right:70px;
+}
+
+.img-left1{
+    float:left;
+    background-color:#79BED9;
+    padding:10px;
+    margin:50px;
+    margin-right:40px;
+}
+
+.img-right{
+    float:right;
+    background-color:#79BED9;
+    padding:10px;
+    margin:10px;
+    margin-right:40px;
+}
+
+.img-left2{
+    float:left;
+    background-color:#79BED9;
+    padding:10px;
+    margin:60px;
+    margin-right:40px;
+}
+
+ .article1{
+  padding:110px;
+}
+
+.article2{
+ text-align:center;
+  margin:10px 20px 0;
+  padding:20px;
+}
+
+.article2 ul{
+   list-style-type: none;
+}
+
+.article3{
+  padding:150px;
+}
+
+.gallery {
+	background-color: #79BED9;
+	width: 634px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 480px;
+	overflow: hidden; 
+}
+
+.gallery img {
+	margin: 15px;
+}
+
+.gallery2 {
+	background-color: #79BED9;
+	width: 634px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 430px;
+	overflow: hidden; 
+}
+
+.gallery2 img {
+	margin: 15px;
+}
+
+.intro{
+    margin:20px 50px 0;
+}
+
+.form1{
+    display: block;
+    margin-left:25%;
+    margin-right:25%;
+    padding-left:260px;
+  
+}
+
+.form2{
+    display: block;
+    padding-left:395px;
+    margin-right:20%;
+}
+
+.form3{
+    display: block;
+    padding-left:25%;
+  margin-right:25%;
+  
+  
+}
+
+.rates ul{
+    list-style-type:none;
+    text-align:center;
+    margin-right:30px;
+}
+
+.list ul{
+    list-style-type:none;
+    float:left;
+    text-align:center;
+   
+    
+}
+
+.list2 ul{
+    list-style-type:none;
+    float:left;
+    text-align:center;
+   
+}
+
+.stone{
+    margin-left: 370px;
+    background-color:#79BED9;
+    padding:10px;
+}
+
+.points{
+    text-align:center;
+    margin-top:20px;
+}
+
+.clearfix{
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  width: 60%;
+}
+
+.img-container{
+    float:left;
+}
+
+.img-container2{
+    float:left;
+}
+
+.map{
+   
+}
+
+#colophon h6{
+    clear:both;
+    margin:0;
+    padding:20px ;
+    text-align:center;
+    text-transform:uppercase;
+    background-color: #955931;
+}
+
+#colophon a:link, a:visited{
+    color:#8DA658;
+}
+
+#colophon a:active, a:hover{
+    color:#345923;
+}
+
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; /*// This is the aspect ratio*/
+        height: 0;
+        overflow: hidden;
+    }
+
+ .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+@media screen and (max-width:600px) {
+     
+header.primary nav ul{
+    flex-direction:column;
+    text-align:right;
+    position:relative;
+    padding-left:5px;
+    padding-right:5px;
+ }
+
+ header.primary nav2 ul{
+     flex-direction:column;
+    text-align:right;
+    margin-top:0;
+    padding-top:0;
+ }
+ 
+}
+ 
+ @media screen and (max-width:800px) and (min-width:601px){
+header.primary nav ul{
+    flex-direction:column;
+    text-align:right;
+    position:relative;
+    padding-left:5px;
+    padding-right:5px;
+ }
+ }
+ 
+ 
